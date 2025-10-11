@@ -8,5 +8,5 @@ export default defineConfig({
     host: true
   },
   plugins: [react(),tailwindcss(),],
-  base: '/poc-store-buddy-page/',
+  base: '/shiraishi-labs/',
 })
