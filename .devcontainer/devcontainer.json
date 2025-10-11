@@ -5,7 +5,7 @@
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
   "dockerComposeFile": "../docker-compose.yml",
   "service": "front",
-  "workspaceFolder": "/workspaces/poc-store-buddy-page",
+  "workspaceFolder": "/workspaces/shiraishi-labs",
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [5173],

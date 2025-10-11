@@ -4,10 +4,10 @@ services:
   # Frontend
   front:
     build: .
-    container_name: sample
+    container_name: shiraishi-labs
     tty: true
     volumes:
-      - ./:/workspaces/poc-store-buddy-page:cached
+      - ./:/workspaces/shiraishi-labs:cached
     # ports:
     #   - 5173:5173
     networks:
