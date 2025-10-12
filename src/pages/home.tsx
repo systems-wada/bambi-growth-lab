@@ -5,7 +5,7 @@ export const HomePage = () => (
     <div className="hero">
       <h1 className="hero-title">ビジネスを次のステージへ</h1>
       <p className="hero-subtitle">
-        最先端のテクノロジーで企業の成長を支援します
+        最先端のテクノロジーで企業の成長を支援します。（修正中）
       </p>
     </div>
     <div className="features">
