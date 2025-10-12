@@ -11,5 +11,5 @@ export default defineConfig({
     host: true,
   },
   plugins: [react(), tailwindcss()],
-  base: "/bambi-growth-lab/",
+  base: "/",
 });
