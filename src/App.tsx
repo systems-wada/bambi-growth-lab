@@ -41,7 +41,7 @@ const App = () => {
         <div className="header-content">
           <div className="logo">
             <Building2 size={28} />
-            TechSolutions
+            Bambi Growth Lob
           </div>
           <button
             className="mobile-menu-btn"
@@ -72,7 +72,7 @@ const App = () => {
       <main key={currentPage}>{renderPage()}</main>
 
       <footer>
-        <p>&copy; 2025 TechSolutions株式会社. All rights reserved.</p>
+        <p>&copy; 2025 合同会社Bambi Growth Lab. All rights reserved.</p>
       </footer>
     </div>
   );

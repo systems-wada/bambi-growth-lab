@@ -23,7 +23,7 @@ export const ContactPage = () => (
           <strong>メール:</strong> info@techsolutions.co.jp
         </p>
         <p>
-          <strong>所在地:</strong> 〒100-0001 東京都千代田区千代田1-1-1
+          <strong>所在地:</strong> 〒104-0061 東京都中央区銀座1-12-4 N&E BLD.6F
         </p>
       </div>
     </div>
