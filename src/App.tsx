@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { Menu, Building2 } from "lucide-react";
-import { ServicesPage } from "./pages/service";
-import { HomePage } from "./pages/home";
-import { PhilosophyPage } from "./pages/philosophy";
-import { MembersPage } from "./pages/members";
-import { ContactPage } from "./pages/contact";
+import { ServicesPage } from "./pages/service.tsx";
+import { HomePage } from "./pages/home.tsx";
+import { CompanyOverview } from "./pages/company-profile.tsx";
+import { PhilosophyPage } from "./pages/philosophy.tsx";
+import { MembersPage } from "./pages/members.tsx";
+import { ContactPage } from "./pages/contact.tsx";
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState("home");
@@ -13,8 +14,9 @@ const App = () => {
   const navigation = [
     { id: "home", label: "ホーム" },
     { id: "services", label: "サービス" },
-    { id: "philosophy", label: "理念" },
-    { id: "members", label: "メンバー" },
+    { id: "company-profile", label: "会社概要" },
+    // { id: "philosophy", label: "理念" },
+    // { id: "members", label: "メンバー" },
     { id: "contact", label: "お問い合わせ" },
   ];
 
@@ -24,6 +26,8 @@ const App = () => {
         return <HomePage />;
       case "services":
         return <ServicesPage />;
+      case "company-profile":
+        return <CompanyOverview />;
       case "philosophy":
         return <PhilosophyPage />;
       case "members":

@@ -3,10 +3,11 @@ import { Rocket, HandshakeIcon, TrendingUp } from "lucide-react";
 export const HomePage = () => (
   <div className="container">
     <div className="hero">
-      <h1 className="hero-title">ビジネスを次のステージへ</h1>
-      <p className="hero-subtitle">
-        最先端のテクノロジーで企業の成長を支援します。（修正中）
-      </p>
+      <h1 className="hero-title">
+        <div>現代の"はたらく"を活用した、</div>
+        <div>新しい採用の形。</div>
+      </h1>
+      <p className="hero-subtitle">従来の求人に頼らず、"体験"で出会う。</p>
     </div>
     <div className="features">
       <div className="feature-card">
