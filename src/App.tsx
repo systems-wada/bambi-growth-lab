@@ -45,7 +45,7 @@ const App = () => {
         <div className="header-content">
           <div className="logo">
             <Building2 size={28} />
-            Bambi Growth Lob
+            Bambi Growth Lab
           </div>
           <button
             className="mobile-menu-btn"
